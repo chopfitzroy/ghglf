@@ -1,10 +1,10 @@
 import { urlParse } from "https://deno.land/x/url_parse/mod.ts";
 import { Octokit } from "https://cdn.skypack.dev/@octokit/core?dts";
 
-const apiToken = Deno.env.get("GITHUB_API_TOKEN");
+const apiToken = Deno.env.get("GITHUB_TOKEN");
 
 const octokit = new Octokit({
-  auth: apiToken;
+  auth: apiToken
 });
 
 export default async (req: Request) => {
