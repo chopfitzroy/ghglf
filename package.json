@@ -1,0 +1,15 @@
+{
+  "name": "github-get-latest-tag",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "netlify dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "netlify-cli": "^12.0.11"
+  }
+}
