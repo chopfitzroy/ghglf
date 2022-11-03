@@ -1,11 +1,14 @@
 import 'terminal.css/dist/terminal.css';
 
 import { hydrate, prerender as ssr } from 'preact-iso';
+import { Header } from './components/header';
+import { Content } from './components/content';
 
 function App() {
     return (
       <main class="terminal">
-        <h1>Hello World!</h1>
+        <Header />
+        <Content />
       </main>
   )
 }
