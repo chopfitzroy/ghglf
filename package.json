@@ -5,11 +5,17 @@
   "main": "index.js",
   "scripts": {
     "dev": "netlify dev",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "wmr",
+    "build": "wmr build"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "netlify-cli": "^12.0.11"
+    "netlify-cli": "^12.0.11",
+    "wmr": "^3.8.0"
+  },
+  "dependencies": {
+    "terminal.css": "^0.7.2"
   }
 }
